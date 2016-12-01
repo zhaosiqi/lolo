@@ -324,7 +324,7 @@ section:nth-child(4){
     background: url(../img/arrow.png);
     position: absolute;
     left: 485px;
-    top:2px;
+    bottom:0;
     animation:jiantou 2s ease infinite;
 }
 @keyframes jiantou{
