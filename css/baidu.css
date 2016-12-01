@@ -324,7 +324,7 @@ section:nth-child(4){
     background: url(../img/arrow.png);
     position: absolute;
     left: 485px;
-    bottom:42px;
+    top:2px;
     animation:jiantou 2s ease infinite;
 }
 @keyframes jiantou{
@@ -731,12 +731,19 @@ section:nth-child(4){
         margin-bottom:8px;
         margin-left:10px;
     }
-    /*.wordleft{*/
-        /*top:0;*/
-        /*left:0;*/
-        /*bottom:0;*/
-        /*margin:auto;*/
-    /*}*/
+    .titlecon .quan-title .section4-box-title{
+        left:0;
+        top:80px;
+        transform:translate(0,0);
+        opacity:0;
+        margin-left:-150px;
+        transition:margin-left 1s linear,opacity 1s linear;
+    }
+    .object .object1 .section4-tu{
+        transform:translate(150px,0);
+        opacity: 0;
+        transition:transform 1s linear,opacity 1s linear;
+    }
 }
 @media screen and (max-width:1000px) {
     .wordleft{
